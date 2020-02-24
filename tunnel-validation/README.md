@@ -62,7 +62,7 @@ optional arguments:
 
 ### Tool Description and Scope
 
-Tool validated GRE (IPV4) tunnels and generates error logs/email.
+Tool validates GRE (IPV4) tunnels and generates error logs/email.
 - Validate if the tunnel provisioned has any overlapping IP addresses with other tunnels on same node.
 - Validate if the tunnel is part of any tunnel-group or not
 - Generate logs and script audit trail to files with current run information and results.
