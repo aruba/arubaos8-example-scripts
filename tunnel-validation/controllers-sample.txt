@@ -1,0 +1,4 @@
+192.168.1.1,viewonly,viewonly,MM
+192.168.100.1,viewonly,viewonly,MM
+172.16.1.1,viewonly,readonly,MD
+172.16.1.2,viewonly,readonly,MD
