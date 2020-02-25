@@ -1,5 +1,15 @@
 # tunnel-validation
 
+### Tool Description and Scope
+
+Tool validates GRE (IPV4) tunnels and generates error logs/email.
+- Validate if the tunnel provisioned has any overlapping IP addresses with other tunnels on same node.
+- Validate if the tunnel is part of any tunnel-group or not
+- Generate logs and script audit trail to files with current run information and results.
+- Optionally can generate email if access to SMTP server is provided.
+
+Script utilizes REST APIs module to collect the necessary information from the devices and these needs to be allowed/reachable from the server the script would be executed from. Script runs 1 time and exits printing the logs and results into respective files/terminals. Script only needs 'ready only' access to the controllers.
+
 ## Requirements
 
 - Remote server (preferably unix) with access to controllers (MM/MD) 
@@ -59,16 +69,6 @@ optional arguments:
   ```
   
 
-
-### Tool Description and Scope
-
-Tool validates GRE (IPV4) tunnels and generates error logs/email.
-- Validate if the tunnel provisioned has any overlapping IP addresses with other tunnels on same node.
-- Validate if the tunnel is part of any tunnel-group or not
-- Generate logs and script audit trail to files with current run information and results.
-- Optionally can generate email if access to SMTP server is provided.
-
-Script utilizes REST APIs module to collect the necessary information from the devices and these needs to be allowed/reachable from the server the script would be executed from. Script runs 1 time and exits printing the logs and results into respective files/terminals. Script only needs 'ready only' access to the controllers.
 
 ### Funtional Module
 
