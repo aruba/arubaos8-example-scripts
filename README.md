@@ -8,7 +8,7 @@ This repository contains code samples for AOS8 platform.
 
 This folder contains a sample code for validating GRE (IPV4) tunnel configurastions.
 
-### Instructions for using the "tunnel-validationo folder
+### Instructions for using tunnel-validation folder
 
 1. Clone the repo
 2. `cd tunnel-validation/`
