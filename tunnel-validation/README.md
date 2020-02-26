@@ -14,7 +14,7 @@ Script utilizes REST APIs module to collect the necessary information from the d
 
 - Remote server (preferably unix) with access to controllers (MM/MD) 
 - Python version 3 installed on the server
-- Utilizes REST APIs for controller communication, HTTS traffic allowed to controllers in the network.
+- Utilizes REST APIs for controller communication, HTTPS traffic allowed to controllers in the network.
 - Valid SMTP server url and port, email address for generating email with results/alert (optional if email alerts is needed)
 - Valid internet connection on the server (where the script will be hosted) for Python libraries to be installed.
 
